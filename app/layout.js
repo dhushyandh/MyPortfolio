@@ -2,6 +2,7 @@ import { Outfit, Ovo } from "next/font/google";
 import "./globals.css";
 import ScrollToTop from '@/components/ScrollToTop'
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { Analytics } from '@vercel/analytics/next';
 
 export const outfit = Outfit({
   subsets: ["latin"],
@@ -129,6 +130,7 @@ export default function RootLayout({ children }) {
         <ScrollToTop />
         {children}
         <GoogleAnalytics gaId="G-B04T18BJG1" />
+        <Analytics />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
