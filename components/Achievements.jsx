@@ -40,8 +40,8 @@ const certificates = [
     year: '2026',
     description:
       'Completed MERN stack training covering MongoDB, Express, React, and Node.js backend integration.',
-    preview: '/certificates/MERN_intern.png',
-    file: '/certificates/MERN_intern.png',
+    preview: '/certificates/MERN_Intern.png',
+    file: '/certificates/MERN_Intern.png',
     previewType: 'image',
   },
   {
