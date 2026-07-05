@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# 🌐 Dhushyandh Portfolio Website
 
-First, run the development server:
+A modern and responsive personal portfolio website showcasing my skills, projects, experience, achievements, and technical expertise in software development.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Responsive and modern UI
+* Professional portfolio layout
+* Project showcase section
+* Skills and technologies section
+* Education and experience details
+* Contact information and social links
+* Resume download option
+* Integrated AI Portfolio Assistant
+* Mobile-friendly design
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🛠️ Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Frontend
 
-## Learn More
+* HTML5
+* CSS3
+* JavaScript
+* React.js
+* Tailwind CSS
 
-To learn more about Next.js, take a look at the following resources:
+### Backend
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Node.js
+* Express.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Database
 
-## Deploy on Vercel
+* MongoDB
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Cloud & Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* AWS
+* Microsoft Azure
+* Render
+* GitHub Pages
+
+## 📂 Featured Projects
+
+### SmartMart
+
+A full-stack MERN e-commerce application featuring:
+
+* User Authentication
+* Product Management
+* Shopping Cart
+* Order Management
+* Admin Dashboard
+
+### AI Portfolio Assistant
+
+A Python-based intelligent chatbot designed to answer questions regarding:
+
+* Skills
+* Projects
+* Experience
+* Education
+* Career Goals
+* Contact Information
+
+### Voting System
+
+A web-based voting platform focused on usability and secure vote management.
+
+### Gemini Clone
+
+An AI-inspired web application built to explore modern user interface design and development concepts.
+
+## 🎓 Education
+
+Bachelor of Engineering (B.E.)
+Computer Science Engineering
+
+## 💡 Technical Skills
+
+### Programming Languages
+
+* Python
+* Java
+* JavaScript
+
+### Frontend Development
+
+* HTML
+* CSS
+* React.js
+* Tailwind CSS
+
+### Backend Development
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB
+
+### Cloud Technologies
+
+* AWS
+* Microsoft Azure
+
+## 🎯 Career Objective
+
+To build scalable software solutions, strengthen expertise in cloud computing and full-stack development, and contribute to innovative technology products as a Software Engineer.
+
+## 📞 Contact
+
+### GitHub
+
+https://github.com/dhushyandh
+
+### LinkedIn
+
+https://linkedin.com/in/dhushyandh
+
+### Portfolio
+
+https://dhushyandh.me
+
+## **Email**
+
+[dhushyandhneduncheziyan4896@gmail.com](https://dhushyandhneduncheziyan4896@gmail.com)
+
+## 📜 License
+
+This project is intended for educational, personal branding, and professional portfolio purposes.
