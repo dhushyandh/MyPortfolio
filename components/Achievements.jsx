@@ -11,8 +11,8 @@ const certificates = [
     year: '2026',
     description:
       'Completed foundational AWS training covering cloud concepts, core AWS services, security, architecture, pricing, and support.',
-    preview: '/Certificates/aws.png',
-    file: '/Certificates/aws.png',
+    preview: '/certificates/aws.png',
+    file: '/certificates/aws.png',
     previewType: 'image',
   },
   {
@@ -21,8 +21,8 @@ const certificates = [
     year: '2026',
     description:
       'Completed coursework focused on frontend fundamentals, responsive interfaces, and real-world web development practices.',
-    preview: '/Certificates/IBM-frontend.png',
-    file: '/Certificates/IBM-Frontend.pdf',
+    preview: '/certificates/IBM-frontend.png',
+    file: '/certificates/IBM-Frontend.pdf',
     previewType: 'image',
   },
   {
@@ -30,8 +30,8 @@ const certificates = [
     issuer: 'GUVI',
     year: '2026',
     description: 'Earned certification by completing Python programming modules and practical exercises.',
-    preview: '/Certificates/Python Certificate - GUVI.png',
-    file: '/Certificates/Python Certificate - GUVI.pdf',
+    preview: '/certificates/Python Certificate - GUVI.png',
+    file: '/certificates/Python Certificate - GUVI.pdf',
     previewType: 'image',
   },
   {
@@ -40,8 +40,8 @@ const certificates = [
     year: '2026',
     description:
       'Completed MERN stack training covering MongoDB, Express, React, and Node.js backend integration.',
-    preview: '/Certificates/MERN_intern.png',
-    file: '/Certificates/MERN_intern.png',
+    preview: '/certificates/MERN_intern.png',
+    file: '/certificates/MERN_intern.png',
     previewType: 'image',
   },
   {
@@ -50,8 +50,8 @@ const certificates = [
     year: '2025',
     description:
       'Completed Oracle Cloud Infrastructure AI Foundations and gained core understanding of AI concepts, services, and use cases.',
-    preview: '/Certificates/Oracle - oci.png',
-    file: '/Certificates/Oracle - oci.png',
+    preview: '/certificates/Oracle - oci.png',
+    file: '/certificates/Oracle - oci.png',
     previewType: 'image',
   },
   {
@@ -60,8 +60,8 @@ const certificates = [
     year: '2026',
     description:
       'Completed Amazon Full Stack certification focused on end-to-end web application development, deployment, and best practices.',
-    preview: '/Certificates/FullStack - Amazon.png',
-    file: '/Certificates/FullStack - Amazon.png',
+    preview: '/certificates/FullStack - Amazon.png',
+    file: '/certificates/FullStack - Amazon.png',
     previewType: 'image',
   },
 ]
