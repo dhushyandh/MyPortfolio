@@ -35,14 +35,14 @@ const Navbar = () => {
             <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
                 <Image src={assets.header_bg_color} alt='bg' className='w-full' />
             </div>
-            <nav className={`w-full fixed top-0 left-0 z-50 px-5 py-4 ${isScroll ? 'bg-opacity-50 backdrop-blur-lg shadow-sm':''}`}>
+            <nav className={`w-full fixed top-0 left-0 z-50 px-5 py-4 ${isScroll ? 'bg-opacity-50 backdrop-blur-lg shadow-sm' : ''}`}>
                 <div className='mx-auto flex h-16 max-w-7xl items-center justify-between gap-4'>
                     <a href="#home" className='font-extrabold tracking-tight text-xl md:text-2xl'>
                         Dhushyandh<span className='text-primary dark:text-lightPrimary'>.</span>
                     </a>
 
                     <div className='hidden md:flex flex-1 justify-center'>
-                        <ul className={`flex items-center gap-6 lg:gap-8 rounded-full px-8 py-3 ${isScroll ? '':'bg-white/80 shadow-sm backdrop-blur/60'} `}>
+                        <ul className={`flex items-center gap-6 lg:gap-8 rounded-full px-8 py-3 ${isScroll ? '' : 'bg-white/80 shadow-sm backdrop-blur/60'} `}>
                             <li><a className='font-Ovo text-sm md:text-base' href="#home">Home</a></li>
                             <li><a className='font-Ovo text-sm md:text-base' href="#about">About</a></li>
                             <li><a className='font-Ovo text-sm md:text-base' href="#services">Services</a></li>
@@ -53,7 +53,7 @@ const Navbar = () => {
                     </div>
 
                     <div className='flex items-center gap-3'>
-         
+
                         <a className='hidden lg:inline-flex items-center gap-2 rounded-full border border-gray-500 px-6 py-2.5 font-Ovo text-sm' href="#contact">
                             Contact <Image alt='Contact' src={assets.arrow_icon} className='w-3' />
                         </a>
@@ -71,6 +71,7 @@ const Navbar = () => {
                     <li><a className='font-Ovo text-lg' onClick={closeMenu} href="#about">About</a></li>
                     <li><a className='font-Ovo text-lg' onClick={closeMenu} href="#services">Services</a></li>
                     <li><a className='font-Ovo text-lg' onClick={closeMenu} href="#mywork">My Work</a></li>
+                    <li><a className='font-Ovo text-lg' onClick={closeMenu} href="#achievements">Achievements</a></li>
                     <li><a className='font-Ovo text-lg' onClick={closeMenu} href="#contact">Contact</a></li>
                 </ul>
             </nav>

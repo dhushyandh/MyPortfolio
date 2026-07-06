@@ -44,13 +44,13 @@ function getStaticChatResponse(message) {
     };
   }
   if (chatHasWords(raw, ['project'])) {
-    return { text: 'Projects: SmartMart; Portfolio Website; Voting System; Gemini Clone.', options: [] };
+    return { text: 'Projects: ProjectManagementApp; E-commerce Website;  Portfolio; Online Voting System; Chat Application.', options: [] };
   }
   if (chatHasWords(raw, ['education']) || chatHasWords(raw, ['college'])) {
     return { text: 'I am currently pursuing B.E. — Computer Science Engineering.', options: [] };
   }
   if (chatHasWords(raw, ['experience']) || chatHasWords(raw, ['internship'])) {
-    return { text: 'Experience: MERN stack, backend APIs, DB integration, cloud.', options: [] };
+    return { text: 'Experience:Full stack, MERN stack, backend APIs, DB integration, cloud.', options: [] };
   }
   if (chatHasWords(raw, ['contact'])) {
     return {
@@ -59,10 +59,10 @@ function getStaticChatResponse(message) {
     };
   }
   if (chatIncludes(raw, ['resume'])) {
-    return { text: 'Resume available for download on the portfolio page.', options: [] };
+    return { text: 'Resume available for download on this page.', options: [] };
   }
   return {
-    text: 'Ask about: Skills, Projects, Education, Experience, AWS, Azure, or Contact.',
+    text: 'Ask about: Skills, Projects, Education, Experience, or Contact Details.',
     options: [],
   };
 }
@@ -80,7 +80,7 @@ export default function Chatbot() {
         {
           id: 'welcome',
           from: 'bot',
-          text: 'Hi there! Ask me about Dhushyandh’s skills, projects, education, experience, AWS, Azure, or contact.',
+          text: 'Hi there! Ask me about My skills, projects, education, experience, or Contact Details.',
         },
       ]);
       setOptions(staticResponses.options);
@@ -189,7 +189,7 @@ export default function Chatbot() {
                 />
               </div>
               <div className="text-white">
-                <div className="text-sm font-semibold">AI Assistant</div>
+                <div className="text-sm font-semibold">My AI</div>
               </div>
             </div>
             <div className="flex items-center gap-2">
