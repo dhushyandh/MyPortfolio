@@ -122,7 +122,7 @@ https://linkedin.com/in/dhushyandh
 
 ### Portfolio
 
-https://dhushyandh.me
+https://dhushyandh.in
 
 ## **Email**
 

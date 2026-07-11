@@ -54,7 +54,7 @@ function getStaticChatResponse(message) {
   }
   if (chatHasWords(raw, ['contact'])) {
     return {
-      text: 'Contact: GitHub: https://github.com/dhushyandh | LinkedIn: https://linkedin.com/in/dhushyandh | Portfolio: https://dhushyandh.me',
+      text: 'Contact: GitHub: https://github.com/dhushyandh | LinkedIn: https://linkedin.com/in/dhushyandh | Portfolio: https://dhushyandh.in',
       options: [],
     };
   }

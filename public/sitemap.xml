@@ -3,7 +3,7 @@ export const dynamic = "force-static";
 export default function sitemap() {
   return [
     {
-      url: "https://dhushyandh.me",
+      url: "https://dhushyandh.in",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,

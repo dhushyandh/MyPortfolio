@@ -11,7 +11,7 @@ const projects = [
     title: 'Project Management App',
     description: 'Full-stack project management app for task tracking, teams, and dashboards.',
     repo: 'https://github.com/dhushyandh/ProjectManagement',
-    live: 'https://projectmanage.dhushyandh.me/',
+    live: 'https://projectmanage.dhushyandh.in/',
     image: assets.projectmanagementapp,
     tech: 'React,Node.js,Express,MongoDB',
     features: 'Projects,Tasks,Teams,Status tracking',

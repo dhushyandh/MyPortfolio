@@ -14,7 +14,7 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://dhushyandh.me"),
+  metadataBase: new URL("https://dhushyandh.in"),
 
   title: {
     default: "Dhushyandh | MERN Stack Developer",
@@ -53,7 +53,7 @@ export const metadata = {
   authors: [
     {
       name: "Dhushyandh",
-      url: "https://dhushyandh.me",
+      url: "https://dhushyandh.in",
     },
   ],
 
@@ -89,7 +89,7 @@ export const metadata = {
     description:
       "Modern full-stack web applications built using React, Next.js, Node.js, Express & MongoDB.",
 
-    url: "https://dhushyandh.me",
+    url: "https://dhushyandh.in",
 
     siteName: "Dhushyandh",
 
@@ -136,8 +136,8 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "Person",
               name: "Dhushyandh",
-              url: "https://dhushyandh.me",
-              image: "https://dhushyandh.me/images/user-image.png",
+              url: "https://dhushyandh.in",
+              image: "https://dhushyandh.in/images/user-image.png",
               jobTitle: "MERN Stack Developer",
               description:
                 "MERN Stack Developer specializing in React, Next.js, Node.js, Express.js and MongoDB.",

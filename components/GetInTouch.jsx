@@ -24,7 +24,7 @@ export default function GetInTouch() {
 
       <form method="post" action="https://api.web3forms.com/submit" className="max-w-3xl mx-auto">
         <input type="hidden" name="access_key" value="385195b5-efaa-4e75-9797-ec04ec4b17b7" />
-        <input type="hidden" name="redirect" value="https://dhushyandh.me/thank-you" />
+        <input type="hidden" name="redirect" value="https://dhushyandh.in/thank-you" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <input
             type="text"

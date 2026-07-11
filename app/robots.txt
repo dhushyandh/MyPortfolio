@@ -6,6 +6,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://dhushyandh.me/sitemap.xml",
+    sitemap: "https://dhushyandh.in/sitemap.xml",
   };
 }
