@@ -17,6 +17,15 @@ const projects = [
     features: 'Projects,Tasks,Teams,Status tracking',
   },
   {
+    title: 'AI Resume Analyser',
+    description: 'AI-powered resume analysis tool with automated feedback and suggestions.',
+    repo: 'https://github.com/dhushyandh/AIResumeAnalyser',
+    live: 'https://cvpilot.dhushyandh.me',
+    image: assets.airesume,
+    tech: 'Typescript,React,Node.js,Express,PostgreSQL,Gemini API',
+    features: 'Resume parsing,Feedback generation,Job matching,Suggestions',
+  },
+  {
     title: 'E-commerce Website',
     description: 'Ecommerce MERN app with product catalog, cart and checkout.',
     repo: 'https://github.com/dhushyandh/SmartMart',
@@ -33,16 +42,7 @@ const projects = [
     image: assets.onlinevoting,
     tech: 'React,Node.js,Express,MongoDB',
     features: 'Voter auth,Admin panel,Result dashboard',
-  },
-  {
-    title: 'Admin Dashboard',
-    description: 'Admin dashboard for SmartMart with product and user management.',
-    repo: 'https://github.com/dhushyandh/SmartMart',
-    live: 'https://smartmart-admin.onrender.com',
-    image: assets.smartmart,
-    tech: 'React,Node.js,Express,MongoDB',
-    features: 'User management,Product CRUD,Analytics',
-  },
+  }, 
 ]
 
 const moreProjects = [

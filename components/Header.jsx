@@ -33,7 +33,7 @@ const Header = () => {
                     <a href="#contact" className='inline-flex items-center justify-center gap-2 rounded-full bg-black px-10 py-3 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5'>
                         Contact Me <Image src={assets.right_arrow_white} alt='arrow' className='w-4' />
                     </a>
-                    <a href="/Dhushyandh_Resume1.pdf" download className='inline-flex items-center justify-center gap-2 rounded-full border border-slate-300 bg-white px-10 py-3 text-sm font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50'>
+                    <a href="/Dhushyandh_Resume.pdf" download className='inline-flex items-center justify-center gap-2 rounded-full border border-slate-300 bg-white px-10 py-3 text-sm font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50'>
                         My Resume <Image src={assets.download_icon} alt='download' className='w-4' />
                     </a>
                 </div>

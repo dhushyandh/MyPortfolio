@@ -43,6 +43,7 @@ import weatherapp from './weatherapp.png';
 import todo from './todo.png';
 import vipstore from './Vipstore.png';
 import authapp from './authapp.png';
+import airesume from './airesume.png';
 
 export const assets = {
     code_icon,
@@ -79,6 +80,7 @@ export const assets = {
     smartmart,
     onlinevoting,
     weatherapp,
+    airesume,
     todo,
     vipstore,
     authapp,
