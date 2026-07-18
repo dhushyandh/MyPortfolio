@@ -77,7 +77,7 @@ const Skills = () => {
       <div className="text-center">
         <p className="font-Ovo text-lg mb-2">Tech I Use</p>
 
-        <h2 className="text-5xl font-Ovo mb-16">My Skills</h2>
+        <p className="text-5xl font-Ovo mb-16">My Skills</p>
       </div>
 
       <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
@@ -89,7 +89,7 @@ const Skills = () => {
             whileHover={{ y: -6 }}
             transition={{ duration: 0.3 }}
           >
-            <h3 className="text-2xl font-bold mb-8">{group.title}</h3>
+            <p className="text-2xl font-bold mb-8">{group.title}</p>
 
             <div className="flex flex-wrap gap-4">
               {group.skills.map((skill) => (

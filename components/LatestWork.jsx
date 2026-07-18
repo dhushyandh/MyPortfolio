@@ -116,8 +116,8 @@ const LatestWork = () => {
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.8, ease: 'easeOut' }}
     >
-      <h4 className="text-center mb-2 text-lg font-Ovo">My-PortFolio</h4>
-      <h2 className="text-center text-5xl font-Ovo">My Latest Work</h2>
+      <p className="text-center mb-2 text-lg font-Ovo">My-PortFolio</p>
+      <p className="text-center text-5xl font-Ovo">My Latest Work</p>
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
         These projects represent my hands-on learning and practical experience in web development,
         showcasing full-stack applications built with modern tools and technologies.
@@ -167,7 +167,7 @@ const LatestWork = () => {
               </div>
             </div>
             <div className="p-3 flex-1">
-              <h3 className="text-lg font-semibold text-black">{project.title}</h3>
+              <p className="text-lg font-semibold text-black">{project.title}</p>
               <p className="text-xs text-gray-400 mt-2">{project.description}</p>
             </div>
           </motion.article>
@@ -226,7 +226,7 @@ const LatestWork = () => {
                 </div>
               </div>
               <div className="p-3 flex-1">
-                <h3 className="text-lg font-semibold text-black">{project.title}</h3>
+                <p className="text-lg font-semibold text-black">{project.title}</p>
                 <p className="text-xs text-gray-400 mt-2">{project.description}</p>
               </div>
             </motion.article>
@@ -275,7 +275,7 @@ const LatestWork = () => {
               </div>
               <div className="p-6 flex flex-col bg-white ">
                 <div className="flex items-start justify-between">
-                  <h3 className="text-2xl font-bold">{selectedProject.title}</h3>
+                  <p className="text-2xl font-bold">{selectedProject.title}</p>
                   <button
                     onClick={closeModal}
                     aria-label="Close details"

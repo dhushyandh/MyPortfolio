@@ -19,13 +19,13 @@ const Header = () => {
                     <span className='h-2 w-2 rounded-full bg-emerald-500 mr-2 inline-block'></span>
                     Open To Work
                 </div>
-                <h3 className='flex items-center justify-center gap-2 text-xl md:text-2xl font-Ovo'>
+                <p className='flex items-center justify-center gap-2 text-xl md:text-2xl font-Ovo'>
                     Hi! I'm Dhushyandh <Image src={assets.hand_icon} alt='wave' className='w-6' />
-                </h3>
-                <h1 className='font-Ovo text-4xl sm:text-5xl lg:text-[66px] font-semibold leading-tight tracking-tight text-slate-950'>
+                </p>
+                <p className='font-Ovo text-4xl sm:text-5xl lg:text-[66px] font-semibold leading-tight tracking-tight text-slate-950'>
                     Full-Stack Web Developer
                     <span className='block'>based in India.</span>
-                </h1>
+                </p>
                 <p className='mx-auto max-w-2xl text-base leading-8 text-slate-600 font-Ovo'>
                     I’m a Full Stack Web Developer passionate about building modern, scalable web applications. I focus on creating clean user interfaces, efficient backend APIs, and real-world solutions using JavaScript and the Full stack.
                 </p>

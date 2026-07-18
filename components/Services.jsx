@@ -48,9 +48,9 @@ const Services = () => {
             <div className="text-center">
                 <p className="font-Ovo text-lg mb-2">What I Offer</p>
 
-                <h2 className="text-5xl font-Ovo mb-6">
+                <p className="text-5xl font-Ovo mb-6">
                     My Services
-                </h2>
+                </p>
 
                 <p className="max-w-2xl mx-auto text-black mb-16">
                     I help businesses and individuals build modern,
@@ -95,9 +95,9 @@ const Services = () => {
                                 />
                             </div>
 
-                            <h3 className="text-xl font-semibold mb-4">
+                            <p className="text-xl font-semibold mb-4">
                                 {service.title}
-                            </h3>
+                            </p>
 
                             <p className="text-white dark:text-black text-sm leading-7 grow">
                                 {service.description}

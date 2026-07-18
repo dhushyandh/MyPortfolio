@@ -18,8 +18,8 @@ export default function GetInTouch() {
             <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
                   <Image src={assets.header_bg_color} alt='bg' className='w-full' />
               </div>
-      <h4 className="text-center mb-2 text-lg font-Ovo">Connect With Me</h4>
-      <h2 className="text-center text-5xl font-Ovo">Get In Touch</h2>
+      <p className="text-center mb-2 text-lg font-Ovo">Connect With Me</p>
+      <p className="text-center text-5xl font-Ovo">Get In Touch</p>
       <p className="text-center max-w-2xl mx-auto mt-5 mb-8 font-Ovo">Have a project or idea? Let’s build something great together.</p>
 
       <form method="post" action="https://api.web3forms.com/submit" className="max-w-3xl mx-auto">

@@ -10,9 +10,9 @@ const Pagenotfound = () => {
           <span className="mb-5 inline-flex rounded-full border border-fuchsia-200 bg-fuchsia-50 px-4 py-2 text-sm font-semibold text-fuchsia-700">
             404 • Page not found
           </span>
-          <h1 className="font-Ovo text-4xl leading-tight text-slate-900 sm:text-5xl lg:text-6xl">
+          <p className="font-Ovo text-4xl leading-tight text-slate-900 sm:text-5xl lg:text-6xl">
             Oops! This page went missing.
-          </h1>
+          </p>
           <p className="mt-5 max-w-xl text-lg leading-8 text-slate-600">
             The link you opened doesn’t exist on my portfolio. It may be a typo, an old URL, or a page that moved.
           </p>

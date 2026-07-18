@@ -15,17 +15,18 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col">
-          <h4 className="font-semibold mb-3">Navigation</h4>
+          <p className="font-semibold mb-3">Projects</p>
           <nav className="flex flex-col gap-2 text-sm">
-            <a href="#about" className="text-black">About</a>
-            <a href="#services" className="text-black">Services</a>
-            <a href="#work" className="text-black">My Work</a>
-            <a href="#achievements" className="text-black">Achievements</a>
+            <a className='text-black' href="https://cvpilot.dhushyandh.me" target="_blank">CVPilot</a>
+            <a className='text-black' href="https://projectmanage.dhushyandh.me" target="_blank">Project Workspace</a>
+            <a className='text-black' href="https://vipstore.dhushyandh.me" target="_blank">Ecommerce</a>
+            <a className='text-black' href="https://chat.dhushyandh.me" target="_blank">Chat</a>
+            <a className='text-black' href="https://api.dhushyandh.me/docs" target="_blank">API Documentation</a>
           </nav>
         </div>
 
         <div className="flex flex-col">
-          <h4 className="font-semibold mb-3">Contact</h4>
+          <p className="font-semibold mb-3">Contact</p>
           <a href="mailto:dhushyandhneduncheziyan4896@gmail.com" className="text-sm text-black">dhushyandhneduncheziyan4896@gmail.com</a>
           <div className="flex gap-3 mt-4 text-black">
             <a href="https://github.com/dhushyandh" aria-label="GitHub" target="_blank" rel="noreferrer" className="rounded-full border border-gray-300 p-2 hover:border-black hover:text-black transition">

@@ -7,9 +7,9 @@ export default function ThankYou() {
         <div className="mb-6 inline-flex items-center rounded-full bg-emerald-100 px-4 py-2 text-sm font-semibold text-emerald-800">
           Message delivered
         </div>
-        <h1 className="font-Ovo text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-slate-900">
+        <p className="font-Ovo text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-slate-900">
           Thank you for reaching out!
-        </h1>
+        </p>
         <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600">
           I received your message and will get back to you soon. In the meantime, feel free to explore my portfolio or connect with me on LinkedIn.
         </p>

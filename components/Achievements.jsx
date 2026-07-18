@@ -95,8 +95,8 @@ export default function Achievements() {
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.8, ease: 'easeOut' }}
     >
-      <h4 className="text-center mb-2 text-lg font-Ovo">Milestones</h4>
-      <h2 className="text-center text-5xl font-Ovo">Achievements & Certifications</h2>
+      <p className="text-center mb-2 text-lg font-Ovo">Milestones</p>
+      <p className="text-center text-5xl font-Ovo">Achievements & Certifications</p>
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
         Click any certificate to view details and open the original certificate file.
       </p>
@@ -127,7 +127,7 @@ export default function Achievements() {
               )}
             </div>
             <div className="p-3 flex-1">
-              <h3 className="text-sm md:text-lg font-semibold leading-snug">{c.title}</h3>
+              <p className="text-sm md:text-lg font-semibold leading-snug">{c.title}</p>
               <p className="text-xs md:text-sm">{c.issuer}</p>
             </div>
           </motion.div>
@@ -161,7 +161,7 @@ export default function Achievements() {
               <div className="flex items-start justify-between">
                 <div>
                   <div className="text-xs uppercase text-indigo-600 mb-2">{selected.issuer} • {selected.year}</div>
-                  <h3 className="text-2xl font-bold">{selected.title}</h3>
+                  <p className="text-2xl font-bold">{selected.title}</p>
                 </div>
                 <button onClick={close} aria-label="Close details" className="p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-800">
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

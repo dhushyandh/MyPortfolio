@@ -22,7 +22,7 @@ export const metadata = {
   },
 
   description:
-    "Dhushyandh is a MERN Stack Web Developer based in India specializing in React, Node.js, Express, MongoDB, and modern web technologies. View projects and contact for freelance or job opportunities.",
+    "Dhushyandh is a MERN Stack Developer specializing in React, Node.js, Express, MongoDB, and modern web applications. View projects and get in touch.",
 
   keywords: [
     "Dhushyandh",
@@ -74,7 +74,7 @@ export const metadata = {
   },
 
   alternates: {
-    canonical: "/",
+    canonical: "https://dhushyandh.in",
   },
 
   icons: {
